@@ -87,10 +87,11 @@ namespace Resturant1._1
             basketCheckLabels("Tomato Soup");
         }
 
+        //The buttons with the X which clears that line of order
+        #region Basket Clear Buttons
         private void i1r_btn_Click(object sender, EventArgs e)
         {
             basketClearSort(1);
-          
         }
 
         private void i2r_btn_Click(object sender, EventArgs e)
@@ -138,6 +139,8 @@ namespace Resturant1._1
             item10_lbl.Text = "";
             basketClearSort(10);
         }
+
+        #endregion
 
         /// <summary>
         /// sorting method for the basket
