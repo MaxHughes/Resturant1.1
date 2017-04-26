@@ -34,6 +34,16 @@
             this.sides_btn = new System.Windows.Forms.Button();
             this.drinks_btn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.i1r_btn = new System.Windows.Forms.Button();
+            this.i2r_btn = new System.Windows.Forms.Button();
+            this.i3r_btn = new System.Windows.Forms.Button();
+            this.i4r_btn = new System.Windows.Forms.Button();
+            this.i5r_btn = new System.Windows.Forms.Button();
+            this.i6r_btn = new System.Windows.Forms.Button();
+            this.i7r_btn = new System.Windows.Forms.Button();
+            this.i8r_btn = new System.Windows.Forms.Button();
+            this.i9r_btn = new System.Windows.Forms.Button();
+            this.i10r_btn = new System.Windows.Forms.Button();
             this.item10_lbl = new System.Windows.Forms.Label();
             this.item9_lbl = new System.Windows.Forms.Label();
             this.item8_lbl = new System.Windows.Forms.Label();
@@ -63,16 +73,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.button4 = new System.Windows.Forms.Button();
-            this.i1r_btn = new System.Windows.Forms.Button();
-            this.i2r_btn = new System.Windows.Forms.Button();
-            this.i3r_btn = new System.Windows.Forms.Button();
-            this.i4r_btn = new System.Windows.Forms.Button();
-            this.i5r_btn = new System.Windows.Forms.Button();
-            this.i6r_btn = new System.Windows.Forms.Button();
-            this.i7r_btn = new System.Windows.Forms.Button();
-            this.i8r_btn = new System.Windows.Forms.Button();
-            this.i9r_btn = new System.Windows.Forms.Button();
-            this.i10r_btn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -166,6 +166,106 @@
             this.groupBox1.Size = new System.Drawing.Size(437, 619);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
+            // 
+            // i1r_btn
+            // 
+            this.i1r_btn.Location = new System.Drawing.Point(401, 98);
+            this.i1r_btn.Name = "i1r_btn";
+            this.i1r_btn.Size = new System.Drawing.Size(30, 30);
+            this.i1r_btn.TabIndex = 12;
+            this.i1r_btn.Text = "X";
+            this.i1r_btn.UseVisualStyleBackColor = true;
+            this.i1r_btn.Click += new System.EventHandler(this.i1r_btn_Click);
+            // 
+            // i2r_btn
+            // 
+            this.i2r_btn.Location = new System.Drawing.Point(401, 138);
+            this.i2r_btn.Name = "i2r_btn";
+            this.i2r_btn.Size = new System.Drawing.Size(30, 30);
+            this.i2r_btn.TabIndex = 13;
+            this.i2r_btn.Text = "X";
+            this.i2r_btn.UseVisualStyleBackColor = true;
+            this.i2r_btn.Click += new System.EventHandler(this.i2r_btn_Click);
+            // 
+            // i3r_btn
+            // 
+            this.i3r_btn.Location = new System.Drawing.Point(401, 178);
+            this.i3r_btn.Name = "i3r_btn";
+            this.i3r_btn.Size = new System.Drawing.Size(30, 30);
+            this.i3r_btn.TabIndex = 14;
+            this.i3r_btn.Text = "X";
+            this.i3r_btn.UseVisualStyleBackColor = true;
+            this.i3r_btn.Click += new System.EventHandler(this.i3r_btn_Click);
+            // 
+            // i4r_btn
+            // 
+            this.i4r_btn.Location = new System.Drawing.Point(401, 218);
+            this.i4r_btn.Name = "i4r_btn";
+            this.i4r_btn.Size = new System.Drawing.Size(30, 30);
+            this.i4r_btn.TabIndex = 15;
+            this.i4r_btn.Text = "X";
+            this.i4r_btn.UseVisualStyleBackColor = true;
+            this.i4r_btn.Click += new System.EventHandler(this.i4r_btn_Click);
+            // 
+            // i5r_btn
+            // 
+            this.i5r_btn.Location = new System.Drawing.Point(401, 258);
+            this.i5r_btn.Name = "i5r_btn";
+            this.i5r_btn.Size = new System.Drawing.Size(30, 30);
+            this.i5r_btn.TabIndex = 16;
+            this.i5r_btn.Text = "X";
+            this.i5r_btn.UseVisualStyleBackColor = true;
+            this.i5r_btn.Click += new System.EventHandler(this.i5r_btn_Click);
+            // 
+            // i6r_btn
+            // 
+            this.i6r_btn.Location = new System.Drawing.Point(401, 298);
+            this.i6r_btn.Name = "i6r_btn";
+            this.i6r_btn.Size = new System.Drawing.Size(30, 30);
+            this.i6r_btn.TabIndex = 17;
+            this.i6r_btn.Text = "X";
+            this.i6r_btn.UseVisualStyleBackColor = true;
+            this.i6r_btn.Click += new System.EventHandler(this.i6r_btn_Click);
+            // 
+            // i7r_btn
+            // 
+            this.i7r_btn.Location = new System.Drawing.Point(401, 338);
+            this.i7r_btn.Name = "i7r_btn";
+            this.i7r_btn.Size = new System.Drawing.Size(30, 30);
+            this.i7r_btn.TabIndex = 18;
+            this.i7r_btn.Text = "X";
+            this.i7r_btn.UseVisualStyleBackColor = true;
+            this.i7r_btn.Click += new System.EventHandler(this.i7r_btn_Click);
+            // 
+            // i8r_btn
+            // 
+            this.i8r_btn.Location = new System.Drawing.Point(401, 378);
+            this.i8r_btn.Name = "i8r_btn";
+            this.i8r_btn.Size = new System.Drawing.Size(30, 30);
+            this.i8r_btn.TabIndex = 19;
+            this.i8r_btn.Text = "X";
+            this.i8r_btn.UseVisualStyleBackColor = true;
+            this.i8r_btn.Click += new System.EventHandler(this.i8r_btn_Click);
+            // 
+            // i9r_btn
+            // 
+            this.i9r_btn.Location = new System.Drawing.Point(401, 418);
+            this.i9r_btn.Name = "i9r_btn";
+            this.i9r_btn.Size = new System.Drawing.Size(30, 30);
+            this.i9r_btn.TabIndex = 20;
+            this.i9r_btn.Text = "X";
+            this.i9r_btn.UseVisualStyleBackColor = true;
+            this.i9r_btn.Click += new System.EventHandler(this.i9r_btn_Click);
+            // 
+            // i10r_btn
+            // 
+            this.i10r_btn.Location = new System.Drawing.Point(401, 458);
+            this.i10r_btn.Name = "i10r_btn";
+            this.i10r_btn.Size = new System.Drawing.Size(30, 30);
+            this.i10r_btn.TabIndex = 21;
+            this.i10r_btn.Text = "X";
+            this.i10r_btn.UseVisualStyleBackColor = true;
+            this.i10r_btn.Click += new System.EventHandler(this.i10r_btn_Click);
             // 
             // item10_lbl
             // 
@@ -297,6 +397,7 @@
             this.itm5_btn.TabStop = false;
             this.itm5_btn.Text = "Smoked Chicken and Parma Ham - £7";
             this.itm5_btn.UseVisualStyleBackColor = true;
+            this.itm5_btn.Click += new System.EventHandler(this.itm5_btn_Click);
             // 
             // itm4_btn
             // 
@@ -305,8 +406,9 @@
             this.itm4_btn.Size = new System.Drawing.Size(110, 105);
             this.itm4_btn.TabIndex = 3;
             this.itm4_btn.TabStop = false;
-            this.itm4_btn.Text = "Blue Chees Mousse with Beetroots - £7";
+            this.itm4_btn.Text = "Blue Cheese Mousse with Beetroot - £7";
             this.itm4_btn.UseVisualStyleBackColor = true;
+            this.itm4_btn.Click += new System.EventHandler(this.itm4_btn_Click);
             // 
             // itm3_btn
             // 
@@ -317,6 +419,7 @@
             this.itm3_btn.TabStop = false;
             this.itm3_btn.Text = "Salmon and Dill Tartare - £8";
             this.itm3_btn.UseVisualStyleBackColor = true;
+            this.itm3_btn.Click += new System.EventHandler(this.itm3_btn_Click);
             // 
             // itm6_btn
             // 
@@ -327,6 +430,7 @@
             this.itm6_btn.TabStop = false;
             this.itm6_btn.Text = "Duck Liver with Sour Bread - £7\r\n";
             this.itm6_btn.UseVisualStyleBackColor = true;
+            this.itm6_btn.Click += new System.EventHandler(this.itm6_btn_Click);
             // 
             // itm2_btn
             // 
@@ -337,6 +441,7 @@
             this.itm2_btn.TabStop = false;
             this.itm2_btn.Text = "Scallops with Peking Duck - £10";
             this.itm2_btn.UseVisualStyleBackColor = true;
+            this.itm2_btn.Click += new System.EventHandler(this.itm2_btn_Click);
             // 
             // tabControl1
             // 
@@ -402,7 +507,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(686, 638);
+            this.tabPage3.Size = new System.Drawing.Size(686, 635);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             // 
@@ -424,7 +529,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(686, 638);
+            this.tabPage4.Size = new System.Drawing.Size(686, 635);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "tabPage4";
             // 
@@ -446,7 +551,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(686, 638);
+            this.tabPage5.Size = new System.Drawing.Size(686, 635);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "tabPage5";
             // 
@@ -468,7 +573,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(686, 638);
+            this.tabPage6.Size = new System.Drawing.Size(686, 635);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "tabPage6";
             // 
@@ -482,106 +587,6 @@
             this.button4.Text = "Menu";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // i1r_btn
-            // 
-            this.i1r_btn.Location = new System.Drawing.Point(401, 98);
-            this.i1r_btn.Name = "i1r_btn";
-            this.i1r_btn.Size = new System.Drawing.Size(30, 30);
-            this.i1r_btn.TabIndex = 12;
-            this.i1r_btn.Text = "X";
-            this.i1r_btn.UseVisualStyleBackColor = true;
-            this.i1r_btn.Click += new System.EventHandler(this.i1r_btn_Click);
-            // 
-            // i2r_btn
-            // 
-            this.i2r_btn.Location = new System.Drawing.Point(401, 138);
-            this.i2r_btn.Name = "i2r_btn";
-            this.i2r_btn.Size = new System.Drawing.Size(30, 30);
-            this.i2r_btn.TabIndex = 13;
-            this.i2r_btn.Text = "X";
-            this.i2r_btn.UseVisualStyleBackColor = true;
-            this.i2r_btn.Click += new System.EventHandler(this.i2r_btn_Click);
-            // 
-            // i3r_btn
-            // 
-            this.i3r_btn.Location = new System.Drawing.Point(401, 178);
-            this.i3r_btn.Name = "i3r_btn";
-            this.i3r_btn.Size = new System.Drawing.Size(30, 30);
-            this.i3r_btn.TabIndex = 14;
-            this.i3r_btn.Text = "X";
-            this.i3r_btn.UseVisualStyleBackColor = true;
-            this.i3r_btn.Click += new System.EventHandler(this.i3r_btn_Click);
-            // 
-            // i4r_btn
-            // 
-            this.i4r_btn.Location = new System.Drawing.Point(401, 218);
-            this.i4r_btn.Name = "i4r_btn";
-            this.i4r_btn.Size = new System.Drawing.Size(30, 30);
-            this.i4r_btn.TabIndex = 15;
-            this.i4r_btn.Text = "X";
-            this.i4r_btn.UseVisualStyleBackColor = true;
-            this.i4r_btn.Click += new System.EventHandler(this.i4r_btn_Click);
-            // 
-            // i5r_btn
-            // 
-            this.i5r_btn.Location = new System.Drawing.Point(401, 258);
-            this.i5r_btn.Name = "i5r_btn";
-            this.i5r_btn.Size = new System.Drawing.Size(30, 30);
-            this.i5r_btn.TabIndex = 16;
-            this.i5r_btn.Text = "X";
-            this.i5r_btn.UseVisualStyleBackColor = true;
-            this.i5r_btn.Click += new System.EventHandler(this.i5r_btn_Click);
-            // 
-            // i6r_btn
-            // 
-            this.i6r_btn.Location = new System.Drawing.Point(401, 298);
-            this.i6r_btn.Name = "i6r_btn";
-            this.i6r_btn.Size = new System.Drawing.Size(30, 30);
-            this.i6r_btn.TabIndex = 17;
-            this.i6r_btn.Text = "X";
-            this.i6r_btn.UseVisualStyleBackColor = true;
-            this.i6r_btn.Click += new System.EventHandler(this.i6r_btn_Click);
-            // 
-            // i7r_btn
-            // 
-            this.i7r_btn.Location = new System.Drawing.Point(401, 338);
-            this.i7r_btn.Name = "i7r_btn";
-            this.i7r_btn.Size = new System.Drawing.Size(30, 30);
-            this.i7r_btn.TabIndex = 18;
-            this.i7r_btn.Text = "X";
-            this.i7r_btn.UseVisualStyleBackColor = true;
-            this.i7r_btn.Click += new System.EventHandler(this.i7r_btn_Click);
-            // 
-            // i8r_btn
-            // 
-            this.i8r_btn.Location = new System.Drawing.Point(401, 378);
-            this.i8r_btn.Name = "i8r_btn";
-            this.i8r_btn.Size = new System.Drawing.Size(30, 30);
-            this.i8r_btn.TabIndex = 19;
-            this.i8r_btn.Text = "X";
-            this.i8r_btn.UseVisualStyleBackColor = true;
-            this.i8r_btn.Click += new System.EventHandler(this.i8r_btn_Click);
-            // 
-            // i9r_btn
-            // 
-            this.i9r_btn.Location = new System.Drawing.Point(401, 418);
-            this.i9r_btn.Name = "i9r_btn";
-            this.i9r_btn.Size = new System.Drawing.Size(30, 30);
-            this.i9r_btn.TabIndex = 20;
-            this.i9r_btn.Text = "X";
-            this.i9r_btn.UseVisualStyleBackColor = true;
-            this.i9r_btn.Click += new System.EventHandler(this.i9r_btn_Click);
-            // 
-            // i10r_btn
-            // 
-            this.i10r_btn.Location = new System.Drawing.Point(401, 458);
-            this.i10r_btn.Name = "i10r_btn";
-            this.i10r_btn.Size = new System.Drawing.Size(30, 30);
-            this.i10r_btn.TabIndex = 21;
-            this.i10r_btn.Text = "X";
-            this.i10r_btn.UseVisualStyleBackColor = true;
-            this.i10r_btn.Click += new System.EventHandler(this.i10r_btn_Click);
             // 
             // Resturant
             // 

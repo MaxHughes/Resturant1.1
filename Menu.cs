@@ -81,11 +81,39 @@ namespace Resturant1._1
 
         #endregion
 
-        //TOMATO SOUP
+        #region Starters
+        //STARTERS BUTTONS
         private void button1_Click(object sender, EventArgs e)
         {
             basketCheckLabels("Tomato Soup");
         }
+
+        private void itm2_btn_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Scallops with Peking Duck");
+        }
+
+        private void itm3_btn_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Salmon and Dill tartare");
+        }
+
+        private void itm4_btn_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Blue Cheese Mousse with Beetroot");
+        }
+
+        private void itm5_btn_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Smoked Chicken and Parma Ham");
+        }
+
+        private void itm6_btn_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Duck Liver and Sour Bread");
+        }
+        #endregion
+
 
         //The buttons with the X which clears that line of order
         #region Basket Clear Buttons
