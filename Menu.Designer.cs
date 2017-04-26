@@ -511,6 +511,7 @@
             this.i3r_btn.TabIndex = 14;
             this.i3r_btn.Text = "X";
             this.i3r_btn.UseVisualStyleBackColor = true;
+            this.i3r_btn.Click += new System.EventHandler(this.i3r_btn_Click);
             // 
             // i4r_btn
             // 
@@ -520,6 +521,7 @@
             this.i4r_btn.TabIndex = 15;
             this.i4r_btn.Text = "X";
             this.i4r_btn.UseVisualStyleBackColor = true;
+            this.i4r_btn.Click += new System.EventHandler(this.i4r_btn_Click);
             // 
             // i5r_btn
             // 
@@ -529,6 +531,7 @@
             this.i5r_btn.TabIndex = 16;
             this.i5r_btn.Text = "X";
             this.i5r_btn.UseVisualStyleBackColor = true;
+            this.i5r_btn.Click += new System.EventHandler(this.i5r_btn_Click);
             // 
             // i6r_btn
             // 
@@ -538,6 +541,7 @@
             this.i6r_btn.TabIndex = 17;
             this.i6r_btn.Text = "X";
             this.i6r_btn.UseVisualStyleBackColor = true;
+            this.i6r_btn.Click += new System.EventHandler(this.i6r_btn_Click);
             // 
             // i7r_btn
             // 
@@ -547,6 +551,7 @@
             this.i7r_btn.TabIndex = 18;
             this.i7r_btn.Text = "X";
             this.i7r_btn.UseVisualStyleBackColor = true;
+            this.i7r_btn.Click += new System.EventHandler(this.i7r_btn_Click);
             // 
             // i8r_btn
             // 
@@ -556,6 +561,7 @@
             this.i8r_btn.TabIndex = 19;
             this.i8r_btn.Text = "X";
             this.i8r_btn.UseVisualStyleBackColor = true;
+            this.i8r_btn.Click += new System.EventHandler(this.i8r_btn_Click);
             // 
             // i9r_btn
             // 
@@ -565,6 +571,7 @@
             this.i9r_btn.TabIndex = 20;
             this.i9r_btn.Text = "X";
             this.i9r_btn.UseVisualStyleBackColor = true;
+            this.i9r_btn.Click += new System.EventHandler(this.i9r_btn_Click);
             // 
             // i10r_btn
             // 
@@ -574,6 +581,7 @@
             this.i10r_btn.TabIndex = 21;
             this.i10r_btn.Text = "X";
             this.i10r_btn.UseVisualStyleBackColor = true;
+            this.i10r_btn.Click += new System.EventHandler(this.i10r_btn_Click);
             // 
             // Resturant
             // 

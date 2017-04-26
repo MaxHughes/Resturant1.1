@@ -61,7 +61,7 @@ namespace Resturant1._1
         {
             tabControl1.SelectTab(tabPage5);
         }
-        
+
         //DESSERTS MENU BUTTON
         private void button3_Click(object sender, EventArgs e)
         {
@@ -79,7 +79,6 @@ namespace Resturant1._1
             tabControl1.SelectTab(tabPage1);
         }
 
-
         #endregion
 
         //TOMATO SOUP
@@ -91,30 +90,53 @@ namespace Resturant1._1
         private void i1r_btn_Click(object sender, EventArgs e)
         {
             basketClearSort(1);
-            if (item1_lbl.Text != "")
-            {
-                item1 = true;
-            }
-            else
-            {
-                item1 = false;
-                i1r_btn.Hide();
-            }
           
         }
 
         private void i2r_btn_Click(object sender, EventArgs e)
         {
             basketClearSort(2);
-            if (item2_lbl.Text != "")
-            {
-                item2 = true;
-            }
-            else
-            {
-                item2 = false;
-                i2r_btn.Hide();
-            }
+        }
+
+        private void i3r_btn_Click(object sender, EventArgs e)
+        {
+            basketClearSort(3);
+        }
+
+        private void i4r_btn_Click(object sender, EventArgs e)
+        {
+            basketClearSort(4);
+        }
+
+        private void i5r_btn_Click(object sender, EventArgs e)
+        {
+            basketClearSort(5);
+        }
+
+        private void i6r_btn_Click(object sender, EventArgs e)
+        {
+            basketClearSort(6);
+        }
+
+        private void i7r_btn_Click(object sender, EventArgs e)
+        {
+            basketClearSort(7);
+        }
+
+        private void i8r_btn_Click(object sender, EventArgs e)
+        {
+            basketClearSort(8);
+        }
+
+        private void i9r_btn_Click(object sender, EventArgs e)
+        {
+            basketClearSort(9);
+        }
+
+        private void i10r_btn_Click(object sender, EventArgs e)
+        {
+            item10_lbl.Text = "";
+            basketClearSort(10);
         }
 
         /// <summary>
@@ -176,7 +198,63 @@ namespace Resturant1._1
                 item9_lbl.Text = "";
                 item9_lbl.Text = item10_lbl.Text;
                 item10_lbl.Text = "";
+                i++;
             }
+            if (i == 10)
+            {
+                if (item1_lbl.Text == "")
+                {
+                    item1 = false;
+                    i1r_btn.Hide();
+                }
+                if (item2_lbl.Text == "")
+                {
+                    item2 = false;
+                    i2r_btn.Hide();
+                }
+                if (item3_lbl.Text == "")
+                {
+                    item3 = false;
+                    i3r_btn.Hide();
+                }
+                if (item4_lbl.Text == "")
+                {
+                    item4 = false;
+                    i4r_btn.Hide();
+                }
+                if (item5_lbl.Text == "")
+                {
+                    item5 = false;
+                    i5r_btn.Hide();
+                }
+                if (item6_lbl.Text == "")
+                {
+                    item6 = false;
+                    i6r_btn.Hide();
+                }
+                if (item7_lbl.Text == "")
+                {
+                    item7 = false;
+                    i7r_btn.Hide();
+                }
+                if (item8_lbl.Text == "")
+                {
+                    item8 = false;
+                    i8r_btn.Hide();
+                }
+                if (item9_lbl.Text == "")
+                {
+                    item9 = false;
+                    i9r_btn.Hide();
+                }
+                if (item10_lbl.Text == "")
+                {
+                    item10 = false;
+                    i10r_btn.Hide();
+                }
+
+            }
+
         }
 
         /// <summary>
