@@ -114,6 +114,150 @@ namespace Resturant1._1
         }
         #endregion
 
+        #region Mains
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Filet Steak");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Rib-Eye Steak");
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Spitroast Chicken and BBQ Ribs");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Spitroast Chicken");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Beef Burger");
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Halloumi Burger");
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Margarita Pizza");
+        }
+
+        #endregion
+
+        #region Sides
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Chips");
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Sweet Potato Fries");
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Onion Rings");
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Mozzarella Sticks");
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Salad");
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Garlic Bread");
+        }
+
+        #endregion
+
+        #region Desserts
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Creme Brulee");
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Chocolate Brulee Sundae");
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Waffles and Syrup");
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Cheese Cake");
+        }
+
+        #endregion
+
+
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Coca Cola");
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Sprite");
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Fosters");
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Carlsberg");
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Guinness");
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Martini");
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("Mojito");
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            basketCheckLabels("On The Beach");
+        }
+
 
         //The buttons with the X which clears that line of order
         #region Basket Clear Buttons
