@@ -216,7 +216,7 @@ namespace Resturant1._1
 
         #endregion
 
-
+        #region Drinks
 
         private void button24_Click(object sender, EventArgs e)
         {
@@ -258,6 +258,7 @@ namespace Resturant1._1
             basketCheckLabels("On The Beach");
         }
 
+        #endregion
 
         //The buttons with the X which clears that line of order
         #region Basket Clear Buttons
