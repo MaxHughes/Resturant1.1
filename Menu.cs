@@ -20,7 +20,15 @@ namespace Resturant1._1
         {
             InitializeComponent();
             hideBasketLabels();
+            displayTime();
         }
+
+        private void displayTime()
+        {
+            //00:00 format time
+            time_lbl.Text = DateTime.Now.ToShortTimeString();
+        }
+
 
         #region Main Buttons
 
