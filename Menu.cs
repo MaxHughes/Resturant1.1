@@ -93,32 +93,32 @@ namespace Resturant1._1
         //STARTERS BUTTONS
         private void button1_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Tomato Soup");
+            basketCheckLabels("Tomato Soup", "5" );
         }
 
         private void itm2_btn_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Scallops with Peking Duck");
+            basketCheckLabels("Scallops with Peking Duck", "10");
         }
 
         private void itm3_btn_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Salmon and Dill tartare");
+            basketCheckLabels("Salmon and Dill tartare", "8");
         }
 
         private void itm4_btn_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Blue Cheese Mousse with Beetroot");
+            basketCheckLabels("Blue Cheese Mousse with Beetroot", "7");
         }
 
         private void itm5_btn_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Smoked Chicken and Parma Ham");
+            basketCheckLabels("Smoked Chicken and Parma Ham", "7");
         }
 
         private void itm6_btn_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Duck Liver and Sour Bread");
+            basketCheckLabels("Duck Liver and Sour Bread", "7");
         }
         #endregion
 
@@ -126,42 +126,42 @@ namespace Resturant1._1
 
         private void button6_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Filet Steak");
+            basketCheckLabels("Filet Steak", "14");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Rib-Eye Steak");
+            basketCheckLabels("Rib-Eye Steak", "18");
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Spitroast Chicken and BBQ Ribs");
+            basketCheckLabels("Spitroast Chicken and BBQ Ribs", "13");
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Spitroast Chicken");
+            basketCheckLabels("Spitroast Chicken", "9");
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Beef Burger");
+            basketCheckLabels("Beef Burger", "11");
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Halloumi Burger");
+            basketCheckLabels("Halloumi Burger", "11");
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            
+            basketCheckLabels("Hot Dog", "8");
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Margarita Pizza");
+            basketCheckLabels("Margarita Pizza", "12");
         }
 
         #endregion
@@ -170,32 +170,32 @@ namespace Resturant1._1
 
         private void button14_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Chips");
+            basketCheckLabels("Chips", "3");
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Sweet Potato Fries");
+            basketCheckLabels("Sweet Potato Fries", "3");
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Onion Rings");
+            basketCheckLabels("Onion Rings", "3");
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Mozzarella Sticks");
+            basketCheckLabels("Mozzarella Sticks", "4");
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Salad");
+            basketCheckLabels("Salad", "2");
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Garlic Bread");
+            basketCheckLabels("Garlic Bread", "3");
         }
 
         #endregion
@@ -204,22 +204,22 @@ namespace Resturant1._1
 
         private void button20_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Creme Brulee");
+            basketCheckLabels("Creme Brulee", "5");
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Chocolate Brulee Sundae");
+            basketCheckLabels("Chocolate Brulee Sundae", "5");
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Waffles and Syrup");
+            basketCheckLabels("Waffles and Syrup", "5");
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Cheese Cake");
+            basketCheckLabels("Cheese Cake", "5");
         }
 
         #endregion
@@ -228,42 +228,42 @@ namespace Resturant1._1
 
         private void button24_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Coca Cola");
+            basketCheckLabels("Coca Cola", "3");
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Sprite");
+            basketCheckLabels("Sprite", "3");
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Fosters");
+            basketCheckLabels("Fosters", "4");
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Carlsberg");
+            basketCheckLabels("Carlsberg", "4");
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Guinness");
+            basketCheckLabels("Guinness", "4");
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Martini");
+            basketCheckLabels("Martini", "6");
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("Mojito");
+            basketCheckLabels("Mojito", "6");
         }
 
         private void button30_Click(object sender, EventArgs e)
         {
-            basketCheckLabels("On The Beach");
+            basketCheckLabels("On The Beach", "6");
         }
 
         #endregion
@@ -331,57 +331,86 @@ namespace Resturant1._1
         {
             if (i == 1)
             {
+                //set label text as empty
                 item1_lbl.Text = "";
+                price1_lbl.Text = "";
+                //set label text as label underneath
                 item1_lbl.Text = item2_lbl.Text;
+                price1_lbl.Text = price2_lbl.Text;
+
+                //carry on till it reaches the end of the method
                 i++;
             }
             if (i == 2)
             {
                 item2_lbl.Text = "";
+                price2_lbl.Text = "";
                 item2_lbl.Text = item3_lbl.Text;
+                price2_lbl.Text = price3_lbl.Text;
+
                 i++;
             }
             if (i == 3)
             {
                 item3_lbl.Text = "";
+                price3_lbl.Text = "";
                 item3_lbl.Text = item4_lbl.Text;
+                price3_lbl.Text = price4_lbl.Text;
+
                 i++;
             }
             if (i == 4)
             {
                 item4_lbl.Text = "";
+                price4_lbl.Text = "";
                 item4_lbl.Text = item5_lbl.Text;
+                price4_lbl.Text = price5_lbl.Text;
+
                 i++;
             }
             if (i == 5)
             {
                 item5_lbl.Text = "";
+                price5_lbl.Text = "";
                 item5_lbl.Text = item6_lbl.Text;
+                price5_lbl.Text = price6_lbl.Text;
+
                 i++;
             }
             if (i == 6)
             {
                 item6_lbl.Text = "";
+                price6_lbl.Text = "";
                 item6_lbl.Text = item7_lbl.Text;
+                price6_lbl.Text = price7_lbl.Text;
+
                 i++;
             }
             if (i == 7)
             {
                 item7_lbl.Text = "";
+                price7_lbl.Text = "";
                 item7_lbl.Text = item8_lbl.Text;
+                price7_lbl.Text = price8_lbl.Text;
+
                 i++;
             }
             if (i == 8)
             {
                 item8_lbl.Text = "";
+                price8_lbl.Text = "";
                 item8_lbl.Text = item9_lbl.Text;
+                price8_lbl.Text = price9_lbl.Text;
                 i++;
             }
             if (i == 9)
             {
                 item9_lbl.Text = "";
+                price9_lbl.Text = "";
                 item9_lbl.Text = item10_lbl.Text;
+                price9_lbl.Text = price10_lbl.Text;
                 item10_lbl.Text = "";
+                price10_lbl.Text = "";
                 i++;
             }
             if (i == 10)
@@ -389,51 +418,61 @@ namespace Resturant1._1
                 if (item1_lbl.Text == "")
                 {
                     item1 = false;
+                    gbp1_lbl.Hide();
                     i1r_btn.Hide();
                 }
                 if (item2_lbl.Text == "")
                 {
                     item2 = false;
+                    gbp2_lbl.Hide();
                     i2r_btn.Hide();
                 }
                 if (item3_lbl.Text == "")
                 {
                     item3 = false;
+                    gbp3_lbl.Hide();
                     i3r_btn.Hide();
                 }
                 if (item4_lbl.Text == "")
                 {
                     item4 = false;
+                    gbp4_lbl.Hide();
                     i4r_btn.Hide();
                 }
                 if (item5_lbl.Text == "")
                 {
                     item5 = false;
+                    gbp5_lbl.Hide();
                     i5r_btn.Hide();
                 }
                 if (item6_lbl.Text == "")
                 {
                     item6 = false;
+                    gbp6_lbl.Hide();
                     i6r_btn.Hide();
                 }
                 if (item7_lbl.Text == "")
                 {
                     item7 = false;
+                    gbp7_lbl.Hide();
                     i7r_btn.Hide();
                 }
                 if (item8_lbl.Text == "")
                 {
                     item8 = false;
+                    gbp8_lbl.Hide();
                     i8r_btn.Hide();
                 }
                 if (item9_lbl.Text == "")
                 {
                     item9 = false;
+                    gbp9_lbl.Hide();
                     i9r_btn.Hide();
                 }
                 if (item10_lbl.Text == "")
                 {
                     item10 = false;
+                    gbp10_lbl.Hide();
                     i10r_btn.Hide();
                 }
 
@@ -446,77 +485,89 @@ namespace Resturant1._1
         /// Also shows the label once used
         /// </summary>
         /// <param name="i">input from the buttons</param>
-        private void basketCheckLabels (string i)
+        private void basketCheckLabels (string i , string j)
         {
-        
             if (item1 == false)
             {
+                //change text of item and price label
                 item1_lbl.Text = i;
+                price1_lbl.Text = j;
+                //set item boolean to true so its taken
                 item1 = true;
-                item1_lbl.Show();
+                //show pound sign and the remove button
+                gbp1_lbl.Show();
                 i1r_btn.Show();
             }
             else if (item2 == false)
             {
                 item2_lbl.Text = i;
+                price2_lbl.Text = j;
                 item2 = true;
-                item2_lbl.Show();
+                gbp2_lbl.Show();
                 i2r_btn.Show();
             }
             else if (item3 == false)
             {
                 item3_lbl.Text = i;
+                price3_lbl.Text = j;
                 item3 = true;
-                item3_lbl.Show();
+                gbp3_lbl.Show();
                 i3r_btn.Show();
             }
             else if (item4 == false)
             {
                 item4_lbl.Text = i;
+                price4_lbl.Text = j;
                 item4 = true;
-                item4_lbl.Show();
+                gbp4_lbl.Show();
                 i4r_btn.Show();
             }
             else if (item5 == false)
             {
                 item5_lbl.Text = i;
+                price5_lbl.Text = j;
                 item5 = true;
-                item5_lbl.Show();
+                gbp5_lbl.Show();
                 i5r_btn.Show();
             }
             else if (item6 == false)
             {
                 item6_lbl.Text = i;
+                price6_lbl.Text = j;
                 item6 = true;
-                item6_lbl.Show();
+                gbp6_lbl.Show();
                 i6r_btn.Show();
             }
             else if (item7 == false)
             {
                 item7_lbl.Text = i;
+                price7_lbl.Text = j;
                 item7 = true;
-                item7_lbl.Show();
+                gbp7_lbl.Show();
                 i7r_btn.Show();
             }
             else if (item8 == false)
             {
                 item8_lbl.Text = i;
+                price8_lbl.Text = j;
                 item8 = true;
-                item8_lbl.Show();
+                gbp8_lbl.Show();
                 i8r_btn.Show();
             }
             else if (item9 == false)
             {
                 item9_lbl.Text = i;
+                price9_lbl.Text = j;
                 item9 = true;
-                item9_lbl.Show();
+                gbp9_lbl.Show();
                 i9r_btn.Show();
             }
             else if (item10 == false)
             {
                 item10_lbl.Text = i;
+                price10_lbl.Text = j;
                 item10 = true;
-                item10_lbl.Show();
+                gbp10_lbl.Show();
                 i10r_btn.Show();
             }
         }
@@ -528,55 +579,95 @@ namespace Resturant1._1
         {
             if (item1 == false)
             {
-                item1_lbl.Hide();
+                item1_lbl.Text = "";
+                price1_lbl.Text = "";
+                gbp1_lbl.Hide();
                 i1r_btn.Hide();
             }
             if (item2 == false)
             {
-                item2_lbl.Hide();
+                item2_lbl.Text = "";
+                price2_lbl.Text = "";
+                gbp2_lbl.Hide();
                 i2r_btn.Hide();
             }
             if (item3 == false)
             {
-                item3_lbl.Hide();
+                item3_lbl.Text = "";
+                price3_lbl.Text = "";
+                gbp3_lbl.Hide();
                 i3r_btn.Hide();
             }
             if (item4 == false)
             {
-                item4_lbl.Hide();
+                item4_lbl.Text = "";
+                price4_lbl.Text = "";
+                gbp4_lbl.Hide();
                 i4r_btn.Hide();
             }
             if (item5 == false)
             {
-                item5_lbl.Hide();
+                item5_lbl.Text = "";
+                price5_lbl.Text = "";
+                gbp5_lbl.Hide();
                 i5r_btn.Hide();
             }
             if (item6 == false)
             {
-                item6_lbl.Hide();
+                item6_lbl.Text = "";
+                price6_lbl.Text = "";
+                gbp6_lbl.Hide();
                 i6r_btn.Hide();
             }
             if (item7 == false)
             {
-                item7_lbl.Hide();
+                item7_lbl.Text = "";
+                price7_lbl.Text = "";
+                gbp7_lbl.Hide();
                 i7r_btn.Hide();
             }
             if (item8 == false)
             {
-                item8_lbl.Hide();
+                item8_lbl.Text = "";
+                price8_lbl.Text = "";
+                gbp8_lbl.Hide();
                 i8r_btn.Hide();
             }
             if (item9 == false)
             {
-                item9_lbl.Hide();
+                item9_lbl.Text = "";
+                price9_lbl.Text = "";
+                gbp9_lbl.Hide();
                 i9r_btn.Hide();
             }
             if (item10 == false)
             {
-                item10_lbl.Hide();
+                item10_lbl.Text = "";
+                price10_lbl.Text = "";
+                gbp10_lbl.Hide();
                 i10r_btn.Hide();
             }
         }
+
+        private void totalCost()
+        {
+
+            int p1 = Convert.ToInt32(price1_lbl.Text),
+                p2 = Convert.ToInt32(price2_lbl.Text),
+                p3 = Convert.ToInt32(price3_lbl.Text),
+                p4 = Convert.ToInt32(price4_lbl.Text),
+                p5 = Convert.ToInt32(price5_lbl.Text),
+                p6 = Convert.ToInt32(price6_lbl.Text),
+                p7 = Convert.ToInt32(price7_lbl.Text),
+                p8 = Convert.ToInt32(price8_lbl.Text),
+                p9 = Convert.ToInt32(price9_lbl.Text),
+                p10 = Convert.ToInt32(price10_lbl.Text);
+
+
+            int total = p1 + p2 + p3 + p4 + p5 + p6 + p7 + p8 + p9 + p10;
+            totalCost_lbl.Text = total.ToString();
+        }
+
 
     }
 }
