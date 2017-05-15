@@ -35,7 +35,7 @@
             this.drinks_btn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.i1r_btn = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
+            this.confirmorder_btn = new System.Windows.Forms.Button();
             this.i2r_btn = new System.Windows.Forms.Button();
             this.i3r_btn = new System.Windows.Forms.Button();
             this.i4r_btn = new System.Windows.Forms.Button();
@@ -48,22 +48,32 @@
             this.pound_lbl = new System.Windows.Forms.Label();
             this.totalCost_lbl = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.gbp10_lbl = new System.Windows.Forms.Label();
+            this.gbp9_lbl = new System.Windows.Forms.Label();
             this.price10_lbl = new System.Windows.Forms.Label();
             this.price9_lbl = new System.Windows.Forms.Label();
+            this.gbp8_lbl = new System.Windows.Forms.Label();
             this.item10_lbl = new System.Windows.Forms.Label();
             this.price8_lbl = new System.Windows.Forms.Label();
+            this.gbp7_lbl = new System.Windows.Forms.Label();
             this.item9_lbl = new System.Windows.Forms.Label();
             this.price7_lbl = new System.Windows.Forms.Label();
+            this.gbp6_lbl = new System.Windows.Forms.Label();
             this.item8_lbl = new System.Windows.Forms.Label();
             this.price6_lbl = new System.Windows.Forms.Label();
+            this.gbp5_lbl = new System.Windows.Forms.Label();
             this.item7_lbl = new System.Windows.Forms.Label();
             this.price5_lbl = new System.Windows.Forms.Label();
+            this.gbp4_lbl = new System.Windows.Forms.Label();
             this.item6_lbl = new System.Windows.Forms.Label();
             this.price4_lbl = new System.Windows.Forms.Label();
+            this.gbp3_lbl = new System.Windows.Forms.Label();
             this.item5_lbl = new System.Windows.Forms.Label();
             this.price3_lbl = new System.Windows.Forms.Label();
+            this.gbp2_lbl = new System.Windows.Forms.Label();
             this.item4_lbl = new System.Windows.Forms.Label();
             this.price2_lbl = new System.Windows.Forms.Label();
+            this.gbp1_lbl = new System.Windows.Forms.Label();
             this.item3_lbl = new System.Windows.Forms.Label();
             this.price1_lbl = new System.Windows.Forms.Label();
             this.item2_lbl = new System.Windows.Forms.Label();
@@ -114,16 +124,6 @@
             this.button29 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.gbp1_lbl = new System.Windows.Forms.Label();
-            this.gbp2_lbl = new System.Windows.Forms.Label();
-            this.gbp3_lbl = new System.Windows.Forms.Label();
-            this.gbp4_lbl = new System.Windows.Forms.Label();
-            this.gbp5_lbl = new System.Windows.Forms.Label();
-            this.gbp6_lbl = new System.Windows.Forms.Label();
-            this.gbp7_lbl = new System.Windows.Forms.Label();
-            this.gbp8_lbl = new System.Windows.Forms.Label();
-            this.gbp9_lbl = new System.Windows.Forms.Label();
-            this.gbp10_lbl = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -192,7 +192,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.i1r_btn);
-            this.groupBox1.Controls.Add(this.button31);
+            this.groupBox1.Controls.Add(this.confirmorder_btn);
             this.groupBox1.Controls.Add(this.i2r_btn);
             this.groupBox1.Controls.Add(this.i3r_btn);
             this.groupBox1.Controls.Add(this.i4r_btn);
@@ -252,16 +252,15 @@
             this.i1r_btn.UseVisualStyleBackColor = true;
             this.i1r_btn.Click += new System.EventHandler(this.i1r_btn_Click);
             // 
-            // button31
+            // confirmorder_btn
             // 
-            this.button31.Location = new System.Drawing.Point(319, 557);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(112, 62);
-            this.button31.TabIndex = 0;
-            this.button31.TabStop = false;
-            this.button31.Text = "Confirm Order";
-            this.button31.UseVisualStyleBackColor = true;
-            this.button31.Click += new System.EventHandler(this.starters_btn_Click);
+            this.confirmorder_btn.Location = new System.Drawing.Point(319, 557);
+            this.confirmorder_btn.Name = "confirmorder_btn";
+            this.confirmorder_btn.Size = new System.Drawing.Size(112, 62);
+            this.confirmorder_btn.TabIndex = 0;
+            this.confirmorder_btn.TabStop = false;
+            this.confirmorder_btn.Text = "Confirm Order";
+            this.confirmorder_btn.UseVisualStyleBackColor = true;
             // 
             // i2r_btn
             // 
@@ -369,7 +368,7 @@
             this.totalCost_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalCost_lbl.Location = new System.Drawing.Point(145, 574);
             this.totalCost_lbl.Name = "totalCost_lbl";
-            this.totalCost_lbl.Size = new System.Drawing.Size(45, 24);
+            this.totalCost_lbl.Size = new System.Drawing.Size(20, 24);
             this.totalCost_lbl.TabIndex = 3;
             this.totalCost_lbl.Text = "0";
             // 
@@ -382,6 +381,26 @@
             this.label2.Size = new System.Drawing.Size(98, 24);
             this.label2.TabIndex = 3;
             this.label2.Text = "Total Cost:";
+            // 
+            // gbp10_lbl
+            // 
+            this.gbp10_lbl.AutoSize = true;
+            this.gbp10_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbp10_lbl.Location = new System.Drawing.Point(294, 463);
+            this.gbp10_lbl.Name = "gbp10_lbl";
+            this.gbp10_lbl.Size = new System.Drawing.Size(16, 18);
+            this.gbp10_lbl.TabIndex = 3;
+            this.gbp10_lbl.Text = "£";
+            // 
+            // gbp9_lbl
+            // 
+            this.gbp9_lbl.AutoSize = true;
+            this.gbp9_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbp9_lbl.Location = new System.Drawing.Point(294, 423);
+            this.gbp9_lbl.Name = "gbp9_lbl";
+            this.gbp9_lbl.Size = new System.Drawing.Size(16, 18);
+            this.gbp9_lbl.TabIndex = 4;
+            this.gbp9_lbl.Text = "£";
             // 
             // price10_lbl
             // 
@@ -403,6 +422,16 @@
             this.price9_lbl.TabIndex = 4;
             this.price9_lbl.Text = "PRICE 9";
             // 
+            // gbp8_lbl
+            // 
+            this.gbp8_lbl.AutoSize = true;
+            this.gbp8_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbp8_lbl.Location = new System.Drawing.Point(294, 383);
+            this.gbp8_lbl.Name = "gbp8_lbl";
+            this.gbp8_lbl.Size = new System.Drawing.Size(16, 18);
+            this.gbp8_lbl.TabIndex = 5;
+            this.gbp8_lbl.Text = "£";
+            // 
             // item10_lbl
             // 
             this.item10_lbl.AutoSize = true;
@@ -422,6 +451,16 @@
             this.price8_lbl.Size = new System.Drawing.Size(65, 18);
             this.price8_lbl.TabIndex = 5;
             this.price8_lbl.Text = "PRICE 8";
+            // 
+            // gbp7_lbl
+            // 
+            this.gbp7_lbl.AutoSize = true;
+            this.gbp7_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbp7_lbl.Location = new System.Drawing.Point(294, 343);
+            this.gbp7_lbl.Name = "gbp7_lbl";
+            this.gbp7_lbl.Size = new System.Drawing.Size(16, 18);
+            this.gbp7_lbl.TabIndex = 6;
+            this.gbp7_lbl.Text = "£";
             // 
             // item9_lbl
             // 
@@ -443,6 +482,16 @@
             this.price7_lbl.TabIndex = 6;
             this.price7_lbl.Text = "PRICE 7";
             // 
+            // gbp6_lbl
+            // 
+            this.gbp6_lbl.AutoSize = true;
+            this.gbp6_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbp6_lbl.Location = new System.Drawing.Point(294, 303);
+            this.gbp6_lbl.Name = "gbp6_lbl";
+            this.gbp6_lbl.Size = new System.Drawing.Size(16, 18);
+            this.gbp6_lbl.TabIndex = 7;
+            this.gbp6_lbl.Text = "£";
+            // 
             // item8_lbl
             // 
             this.item8_lbl.AutoSize = true;
@@ -462,6 +511,16 @@
             this.price6_lbl.Size = new System.Drawing.Size(65, 18);
             this.price6_lbl.TabIndex = 7;
             this.price6_lbl.Text = "PRICE 6";
+            // 
+            // gbp5_lbl
+            // 
+            this.gbp5_lbl.AutoSize = true;
+            this.gbp5_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbp5_lbl.Location = new System.Drawing.Point(294, 263);
+            this.gbp5_lbl.Name = "gbp5_lbl";
+            this.gbp5_lbl.Size = new System.Drawing.Size(16, 18);
+            this.gbp5_lbl.TabIndex = 8;
+            this.gbp5_lbl.Text = "£";
             // 
             // item7_lbl
             // 
@@ -483,6 +542,16 @@
             this.price5_lbl.TabIndex = 8;
             this.price5_lbl.Text = "PRICE 5";
             // 
+            // gbp4_lbl
+            // 
+            this.gbp4_lbl.AutoSize = true;
+            this.gbp4_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbp4_lbl.Location = new System.Drawing.Point(294, 223);
+            this.gbp4_lbl.Name = "gbp4_lbl";
+            this.gbp4_lbl.Size = new System.Drawing.Size(16, 18);
+            this.gbp4_lbl.TabIndex = 9;
+            this.gbp4_lbl.Text = "£";
+            // 
             // item6_lbl
             // 
             this.item6_lbl.AutoSize = true;
@@ -502,6 +571,16 @@
             this.price4_lbl.Size = new System.Drawing.Size(65, 18);
             this.price4_lbl.TabIndex = 9;
             this.price4_lbl.Text = "PRICE 4";
+            // 
+            // gbp3_lbl
+            // 
+            this.gbp3_lbl.AutoSize = true;
+            this.gbp3_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbp3_lbl.Location = new System.Drawing.Point(294, 183);
+            this.gbp3_lbl.Name = "gbp3_lbl";
+            this.gbp3_lbl.Size = new System.Drawing.Size(16, 18);
+            this.gbp3_lbl.TabIndex = 10;
+            this.gbp3_lbl.Text = "£";
             // 
             // item5_lbl
             // 
@@ -523,6 +602,16 @@
             this.price3_lbl.TabIndex = 10;
             this.price3_lbl.Text = "PRICE 3";
             // 
+            // gbp2_lbl
+            // 
+            this.gbp2_lbl.AutoSize = true;
+            this.gbp2_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbp2_lbl.Location = new System.Drawing.Point(294, 143);
+            this.gbp2_lbl.Name = "gbp2_lbl";
+            this.gbp2_lbl.Size = new System.Drawing.Size(16, 18);
+            this.gbp2_lbl.TabIndex = 11;
+            this.gbp2_lbl.Text = "£";
+            // 
             // item4_lbl
             // 
             this.item4_lbl.AutoSize = true;
@@ -542,6 +631,16 @@
             this.price2_lbl.Size = new System.Drawing.Size(65, 18);
             this.price2_lbl.TabIndex = 11;
             this.price2_lbl.Text = "PRICE 2";
+            // 
+            // gbp1_lbl
+            // 
+            this.gbp1_lbl.AutoSize = true;
+            this.gbp1_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbp1_lbl.Location = new System.Drawing.Point(294, 103);
+            this.gbp1_lbl.Name = "gbp1_lbl";
+            this.gbp1_lbl.Size = new System.Drawing.Size(16, 18);
+            this.gbp1_lbl.TabIndex = 2;
+            this.gbp1_lbl.Text = "£";
             // 
             // item3_lbl
             // 
@@ -667,10 +766,10 @@
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Location = new System.Drawing.Point(455, -3);
+            this.tabControl1.Location = new System.Drawing.Point(455, -22);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(694, 661);
+            this.tabControl1.Size = new System.Drawing.Size(694, 680);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
@@ -685,7 +784,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(686, 635);
+            this.tabPage1.Size = new System.Drawing.Size(686, 654);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
@@ -1127,106 +1226,6 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // gbp1_lbl
-            // 
-            this.gbp1_lbl.AutoSize = true;
-            this.gbp1_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbp1_lbl.Location = new System.Drawing.Point(294, 103);
-            this.gbp1_lbl.Name = "gbp1_lbl";
-            this.gbp1_lbl.Size = new System.Drawing.Size(16, 18);
-            this.gbp1_lbl.TabIndex = 2;
-            this.gbp1_lbl.Text = "£";
-            // 
-            // gbp2_lbl
-            // 
-            this.gbp2_lbl.AutoSize = true;
-            this.gbp2_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbp2_lbl.Location = new System.Drawing.Point(294, 143);
-            this.gbp2_lbl.Name = "gbp2_lbl";
-            this.gbp2_lbl.Size = new System.Drawing.Size(16, 18);
-            this.gbp2_lbl.TabIndex = 11;
-            this.gbp2_lbl.Text = "£";
-            // 
-            // gbp3_lbl
-            // 
-            this.gbp3_lbl.AutoSize = true;
-            this.gbp3_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbp3_lbl.Location = new System.Drawing.Point(294, 183);
-            this.gbp3_lbl.Name = "gbp3_lbl";
-            this.gbp3_lbl.Size = new System.Drawing.Size(16, 18);
-            this.gbp3_lbl.TabIndex = 10;
-            this.gbp3_lbl.Text = "£";
-            // 
-            // gbp4_lbl
-            // 
-            this.gbp4_lbl.AutoSize = true;
-            this.gbp4_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbp4_lbl.Location = new System.Drawing.Point(294, 223);
-            this.gbp4_lbl.Name = "gbp4_lbl";
-            this.gbp4_lbl.Size = new System.Drawing.Size(16, 18);
-            this.gbp4_lbl.TabIndex = 9;
-            this.gbp4_lbl.Text = "£";
-            // 
-            // gbp5_lbl
-            // 
-            this.gbp5_lbl.AutoSize = true;
-            this.gbp5_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbp5_lbl.Location = new System.Drawing.Point(294, 263);
-            this.gbp5_lbl.Name = "gbp5_lbl";
-            this.gbp5_lbl.Size = new System.Drawing.Size(16, 18);
-            this.gbp5_lbl.TabIndex = 8;
-            this.gbp5_lbl.Text = "£";
-            // 
-            // gbp6_lbl
-            // 
-            this.gbp6_lbl.AutoSize = true;
-            this.gbp6_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbp6_lbl.Location = new System.Drawing.Point(294, 303);
-            this.gbp6_lbl.Name = "gbp6_lbl";
-            this.gbp6_lbl.Size = new System.Drawing.Size(16, 18);
-            this.gbp6_lbl.TabIndex = 7;
-            this.gbp6_lbl.Text = "£";
-            // 
-            // gbp7_lbl
-            // 
-            this.gbp7_lbl.AutoSize = true;
-            this.gbp7_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbp7_lbl.Location = new System.Drawing.Point(294, 343);
-            this.gbp7_lbl.Name = "gbp7_lbl";
-            this.gbp7_lbl.Size = new System.Drawing.Size(16, 18);
-            this.gbp7_lbl.TabIndex = 6;
-            this.gbp7_lbl.Text = "£";
-            // 
-            // gbp8_lbl
-            // 
-            this.gbp8_lbl.AutoSize = true;
-            this.gbp8_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbp8_lbl.Location = new System.Drawing.Point(294, 383);
-            this.gbp8_lbl.Name = "gbp8_lbl";
-            this.gbp8_lbl.Size = new System.Drawing.Size(16, 18);
-            this.gbp8_lbl.TabIndex = 5;
-            this.gbp8_lbl.Text = "£";
-            // 
-            // gbp9_lbl
-            // 
-            this.gbp9_lbl.AutoSize = true;
-            this.gbp9_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbp9_lbl.Location = new System.Drawing.Point(294, 423);
-            this.gbp9_lbl.Name = "gbp9_lbl";
-            this.gbp9_lbl.Size = new System.Drawing.Size(16, 18);
-            this.gbp9_lbl.TabIndex = 4;
-            this.gbp9_lbl.Text = "£";
-            // 
-            // gbp10_lbl
-            // 
-            this.gbp10_lbl.AutoSize = true;
-            this.gbp10_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbp10_lbl.Location = new System.Drawing.Point(294, 463);
-            this.gbp10_lbl.Name = "gbp10_lbl";
-            this.gbp10_lbl.Size = new System.Drawing.Size(16, 18);
-            this.gbp10_lbl.TabIndex = 3;
-            this.gbp10_lbl.Text = "£";
-            // 
             // Resturant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1237,6 +1236,7 @@
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Resturant";
+            this.Text = "Resturant Self-Service Software 1414030";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
@@ -1324,7 +1324,7 @@
         private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button confirmorder_btn;
         private System.Windows.Forms.Label pound_lbl;
         private System.Windows.Forms.Label totalCost_lbl;
         private System.Windows.Forms.Label label2;

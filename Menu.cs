@@ -487,6 +487,7 @@ namespace Resturant1._1
         /// <param name="i">input from the buttons</param>
         private void basketCheckLabels (string i , string j)
         {
+            //totalCost();
             if (item1 == false)
             {
                 //change text of item and price label
@@ -649,7 +650,8 @@ namespace Resturant1._1
             }
         }
 
-        private void totalCost()
+        //not currently working
+       /* private void totalCost()
         {
 
             int p1 = Convert.ToInt32(price1_lbl.Text),
@@ -666,7 +668,7 @@ namespace Resturant1._1
 
             int total = p1 + p2 + p3 + p4 + p5 + p6 + p7 + p8 + p9 + p10;
             totalCost_lbl.Text = total.ToString();
-        }
+        }*/
 
 
     }
